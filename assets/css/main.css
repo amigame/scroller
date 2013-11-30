@@ -1,27 +1,31 @@
-		*{ margin: 0; padding: 0; }
+*{ margin: 0; padding: 0; }
 
-		body, html{ margin: 0; padding: 0; width: 100%; height: 100%; }
+body, html{ margin: 0; padding: 0; width: 100%; height: 100%; }
 
-		.main {
-			width: 100%;
-			height: 100%;
-			background: #000;
-		}
+.main {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
 
-		camera {
-			-webkit-transform: translate3d( 0, 0, 100px);
-		}
+camera.side {
+	-webkit-transform: translate3d( 0, 0, 100px);
+}
 
-		.player {
-			-webkit-transform: translate3d( -40px, 0, 0) rotate3d(0, 0, 1, -90deg);
-			color: #00f;
-		}
+camera.behind {
+	-webkit-transform: translate3d( -55px, 0, -2px) rotate3d( 1, 1, 0, -90deg);
+}
 
-		.enemy {
-			-webkit-transform: translate3d( 90px, 0, 0) rotate3d(0, 0, 1, 90deg);
-			color: #f00;
-		}
+.player {
+	-webkit-transform: translate3d( -40px, 0, 0) rotate3d(0, 0, 1, -90deg);
+	color: #00f;
+}
 
-		.rock {
-			color: #999;
-		}
+.enemy {
+	-webkit-transform: translate3d( 90px, 0, 0) rotate3d(0, 0, 1, 90deg);
+	color: #f00;
+}
+
+.rock {
+	color: #999;
+}
