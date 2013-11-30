@@ -1,0 +1,30 @@
+{
+	"name": "amigame-scroller",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Scroller template from Amigame",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis.tracend@gmail.com" }
+	],
+	"homepage": "https://amigame.co",
+	"keywords": ["amigame", "template", "game", "construct"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/amigame/scroller.git"
+	},
+	"bugs": {
+		"url": "https://github.com/amigame/scroller/issues"
+	},
+	"licenses": [
+		{
+			"type": "Mozilla Public License v2.0",
+			"url": "https://www.mozilla.org/MPL/2.0/"
+		}
+	],
+	"engines": { "construct": "*" },
+	"main": "index.html",
+	"dependencies": {
+		"construct.input": "*"
+	}
+}
