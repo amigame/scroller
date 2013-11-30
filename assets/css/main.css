@@ -1,0 +1,27 @@
+		*{ margin: 0; padding: 0; }
+
+		body, html{ margin: 0; padding: 0; width: 100%; height: 100%; }
+
+		.main {
+			width: 100%;
+			height: 100%;
+			background: #000;
+		}
+
+		camera {
+			-webkit-transform: translate3d( 0, 0, 100px);
+		}
+
+		.player {
+			-webkit-transform: translate3d( -40px, 0, 0) rotate3d(0, 0, 1, -90deg);
+			color: #00f;
+		}
+
+		.enemy {
+			-webkit-transform: translate3d( 90px, 0, 0) rotate3d(0, 0, 1, 90deg);
+			color: #f00;
+		}
+
+		.rock {
+			color: #999;
+		}
