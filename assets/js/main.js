@@ -26,6 +26,8 @@ function onDocumentMouseMove(event) {
 
 var app;
 var options = {};
+// place in construct options
+var speed = 10;
 
 construct(options, function( backbone ){
 
@@ -101,7 +103,7 @@ construct.configure(function(){
 	var Rock = APP.Meshes.Dynamic.extend({
 		options: {
 			url: "assets/html/rock.html",
-			speed: { x: -0.01 }
+			speed: { x: -0.1 * speed }
 		},
 
 		preRender: function(){
@@ -131,7 +133,7 @@ construct.configure(function(){
 	var Enemy = APP.Meshes.NPC.extend({
 		options: {
 			url: "assets/html/enemy.html",
-			speed: { x: -0.1 }
+			speed: { x: -0.01 * speed }
 		},
 
 		preRender: function(){
